@@ -1,0 +1,6 @@
+#!/bin/bash
+They have recovering systems to avoid losing work if a computer crashes, that would make your directories full of strange files ending in ~, swap files (.swp) or backup files named like #<filename>#.
+
+Those files would appear from time to time in your git status listings that wouldn’t add any valuable information.
+
+Better than disabling them, is to avoid seeing them globally, so any new git repository won’t show them in the status of changed file list but you will still be able to recover them if anything bad happens while editing.
